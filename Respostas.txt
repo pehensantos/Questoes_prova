@@ -1,0 +1,774 @@
+1 - Qual é o conceito de ciclo de vida de um software?
+	O ciclo de vida de um software é o conjunto de fases ou etapas que um software percorre desde a sua concepção até a sua descontinuação.
+
+ENVOLVE:
+Levantamento e análise de requisitos – identificar as necessidades do cliente ou usuário e definir o que o software deve fazer.
+
+Projeto (design) – planejar a arquitetura do sistema, a interface, banco de dados e as tecnologias que serão usadas.
+
+Implementação (codificação) – escrever o código do software conforme o projeto.
+
+Testes – verificar se o software funciona corretamente, atende aos requisitos e está livre de falhas.
+
+Implantação (ou entrega) – disponibilizar o software para uso real.
+
+Manutenção – corrigir erros, melhorar funcionalidades ou adaptar a novas necessidades.
+
+Descontinuação – quando o software deixa de ser usado, substituído ou aposentado.
+
+
+
+
+2- Qual é a diferença entre um produto manufaturado e um produto software?
+
+🔹 Produto manufaturado (bem físico)
+
+Tangível: pode ser tocado (ex.: carro, celular, cadeira).
+
+Produção em série: cada unidade é fabricada fisicamente, geralmente em linha de produção.
+
+Custo de reprodução: cada cópia exige matéria-prima e mão de obra.
+
+Defeitos: normalmente aparecem no processo de fabricação (peças quebradas, montagem incorreta).
+
+Desgaste: sofre deterioração física com o tempo.
+
+Distribuição: depende de transporte, armazenamento e logística.
+
+🔹 Produto software
+
+Intangível: não pode ser tocado, é um conjunto de instruções e dados.
+
+Produção em série: uma vez desenvolvido, pode ser copiado/distribuído infinitamente.
+
+Custo de reprodução: quase zero (não precisa de matéria-prima, apenas de mídia ou download).
+
+Defeitos: não “quebra fisicamente”, mas pode conter erros de lógica ou programação.
+
+Desgaste: não se deteriora, mas pode ficar obsoleto (tecnologia ultrapassada, incompatibilidades).
+
+Distribuição: pode ser entregue instantaneamente via download, nuvem ou mídia digital.
+
+
+
+
+3- Na etapa de análise do ciclo de vida de um software que atividades são realizadas?
+
+Levantamento de requisitos:
+
+Entrevistas, questionários, observações ou análise de documentos para identificar as necessidades do cliente/usuário.
+
+Análise de requisitos funcionais e não funcionais:
+
+Funcionais: descrevem o que o sistema deve fazer (ex.: “o sistema deve gerar relatórios mensais de vendas”).
+
+Não funcionais: descrevem restrições ou qualidades (ex.: desempenho, segurança, usabilidade, compatibilidade).
+
+Modelagem do sistema:
+
+Criação de diagramas (casos de uso, fluxogramas, modelos de dados) para representar graficamente os processos e interações.
+
+Definição do escopo:
+
+Estabelecer claramente os limites do sistema, o que estará incluído e o que ficará fora do projeto.
+
+Validação dos requisitos:
+
+Revisar com o cliente e as partes interessadas para confirmar que tudo o que foi levantado está correto, completo e viável.
+
+Documentação dos requisitos:
+
+Produção do Documento de Requisitos ou Especificação de Requisitos de Software (ERS/SRS), que servirá de base para as próximas fases.
+
+
+
+
+
+4- Na etapa de projeto do ciclo de vida de um software que atividades são realizadas?
+
+ Na etapa de projeto (design) do ciclo de vida de um software, o foco muda: se na análise foi definido o que o sistema deve fazer, agora define-se como ele será construído.
+
+As principais atividades são:
+
+🔹 1. Projeto da arquitetura do sistema
+
+Definição da estrutura geral do software (camadas, módulos, componentes).
+
+Escolha de tecnologias, frameworks, linguagens e padrões arquiteturais (ex.: MVC, microsserviços, cliente-servidor).
+
+
+
+
+🔹 2. Projeto da base de dados
+
+Modelagem dos dados: criação de diagramas entidade-relacionamento (DER).
+
+Definição de tabelas, chaves primárias, relacionamentos e restrições.
+
+
+
+
+🔹 3. Projeto da interface com o usuário (UI/UX)
+
+Especificação de telas, formulários, menus e relatórios.
+
+Protótipos (wireframes) para validar a usabilidade e a navegação.
+
+
+
+
+🔹 4. Projeto detalhado dos módulos
+
+Descrição de como cada módulo/função será implementado.
+
+Uso de diagramas (UML, fluxogramas, diagramas de sequência) para representar o comportamento interno.
+
+
+
+
+🔹 5. Definição de padrões e boas práticas
+
+Estabelecimento de convenções de codificação.
+
+Definição de regras de segurança, escalabilidade e desempenho.
+
+
+
+
+🔹 6. Preparação da documentação técnica
+
+Criação de documentos que servirão de guia para os programadores na fase de implementação.
+
+
+
+5- Qual é a diferença entre o modelo cascata e prototipagem?
+
+🔹 Modelo em Cascata
+
+Sequencial e rígido: as etapas seguem uma ordem fixa (Análise → Projeto → Implementação → Testes → Manutenção).
+
+Cada fase só começa quando a anterior termina.
+
+Produz muita documentação antes da codificação.
+
+Bom para projetos com requisitos claros e estáveis.
+
+Desvantagem: se o cliente mudar de ideia depois, é difícil voltar atrás sem retrabalho.
+
+🔹 Modelo de Prototipagem
+
+Iterativo e flexível: constrói-se uma versão inicial (protótipo) do sistema rapidamente, que é apresentada ao cliente.
+
+O cliente avalia, sugere mudanças e o protótipo é refinado até chegar na versão final.
+
+Foca em experimentar e validar requisitos antes da construção definitiva.
+
+Útil quando os requisitos estão mal definidos ou incertos.
+
+Desvantagem: pode gerar expectativas irreais (usuário achar que o protótipo já é o sistema final).
+
+👉 Resumo da diferença principal:
+
+No cascata, tudo é planejado antes da implementação e segue uma sequência rígida.
+
+Na prototipagem, o software é construído em versões preliminares para validação contínua com o cliente, aceitando mudanças ao longo do processo.
+
+
+
+
+6- O Que significa escopo de um sistema?
+
+O escopo de um sistema é a definição clara dos limites e objetivos do software:
+
+Determina o que o sistema vai fazer (funcionalidades incluídas).
+
+Determina também o que o sistema não vai fazer (funcionalidades excluídas).
+
+Serve para alinhar as expectativas entre clientes, usuários e equipe de desenvolvimento, evitando mal-entendidos.
+
+🔹 Elementos do escopo
+
+Objetivo do sistema – por que ele está sendo desenvolvido (ex.: automatizar o controle de vendas de uma loja).
+
+Funcionalidades principais – as tarefas que o sistema deve realizar (ex.: cadastrar clientes, registrar vendas, gerar relatórios).
+
+Limitações e exclusões – o que não está incluído (ex.: o sistema não fará controle de estoque).
+
+Público-alvo – quem usará o sistema (ex.: atendentes, gerentes).
+
+👉 Em resumo:
+O escopo define as fronteiras do projeto, ou seja, até onde o sistema vai. É como um “mapa” que guia o desenvolvimento para que não haja desvios ou expectativas irreais.
+
+
+
+7- Defina requisitos de software e mostre alguns exemplos.
+
+	Requisitos de software são as funcionalidades, serviços e restrições que definem o que um sistema 
+deve fazer e como deve funcionar para atender às necessidades e objetivos dos usuários e outras partes interessadas. 
+Eles especificam as expectativas para um software, incluindo tanto as tarefas que ele deve realizar (requisitos funcionais) 
+quanto as qualidades que deve apresentar, como desempenho, segurança e usabilidade (requisitos não funcionais). 
+
+
+
+8- Qual é a diferença entre requisitos funcionais e não funcionais? mostre um exemplo de cada um.
+
+🔹 O que são requisitos de software?
+
+Requisitos de software são descrições claras e detalhadas do que o sistema deve fazer (ou das restrições que deve obedecer).
+Eles são a base de todo o desenvolvimento, pois guiam o projeto, a programação e os testes.
+
+Os requisitos se dividem em duas grandes categorias:
+
+Requisitos funcionais
+
+Definem o que o sistema deve fazer, ou seja, suas funcionalidades.
+
+Relacionam-se diretamente com as tarefas e serviços prestados pelo software.
+
+Requisitos não funcionais
+
+Definem como o sistema deve se comportar ou quais restrições deve respeitar.
+
+Estão ligados a qualidades como desempenho, segurança, usabilidade, confiabilidade etc.
+
+🔹 Exemplos
+✅ Requisitos funcionais
+
+O sistema deve permitir o cadastro de usuários com nome, e-mail e senha.
+
+O sistema deve gerar relatórios mensais de vendas em PDF.
+
+O sistema deve enviar e-mails automáticos de recuperação de senha.
+
+O sistema deve registrar transações de compra com data, valor e cliente.
+
+✅ Requisitos não funcionais
+
+O sistema deve responder às requisições em até 2 segundos.
+
+O sistema deve estar disponível 24 horas por dia, 7 dias por semana.
+
+O acesso deve ser feito apenas com autenticação por login e senha criptografada.
+
+A interface deve ser compatível com navegadores modernos e adaptável a dispositivos móveis.
+
+👉 Resumindo:
+
+Requisitos de software = necessidades e restrições que o sistema deve atender.
+
+Funcionais = descrevem funções.
+
+Não funcionais = descrevem características de qualidade ou restrições.
+
+
+
+9- Quais são os meios para execução do levantamento de requisitos?
+
+🔹 Meios mais comuns de levantamento de requisitos
+
+Entrevistas
+
+Conversas estruturadas ou informais com clientes e usuários.
+
+Permite esclarecer dúvidas e detalhar expectativas.
+
+Questionários/Pesquisas
+
+Aplicados quando há muitos usuários envolvidos.
+
+Coletam informações de forma rápida e padronizada.
+
+Observação direta (etnografia)
+
+O analista acompanha a rotina do usuário e observa como ele trabalha.
+
+Bom para descobrir necessidades que o usuário não consegue expressar.
+
+Workshops e reuniões em grupo
+
+Sessões colaborativas para discutir e validar requisitos com várias partes interessadas.
+
+Análise de documentos
+
+Estudo de relatórios, planilhas, fluxos de trabalho e sistemas existentes.
+
+Ajuda a entender processos já formalizados.
+
+Prototipação
+
+Construção de versões preliminares (protótipos) para que os usuários visualizem e validem suas necessidades.
+
+Brainstorming
+
+Reunião de ideias entre usuários e equipe para levantar requisitos de forma criativa.
+
+Storytelling / Cenários de uso
+
+Descrição de histórias ou situações reais de uso para identificar funcionalidades necessárias.
+
+Modelagem de processos (BPM, fluxogramas)
+
+Representar graficamente como o trabalho é feito, identificando pontos que o software deve cobrir.
+
+👉 Em resumo:
+O levantamento pode ser feito conversando, observando, analisando documentos ou experimentando protótipos. 
+Normalmente, combina-se várias técnicas para ter uma visão completa e confiável do sistema a ser desenvolvido.
+
+
+
+10- O que é um modelo de requisitos?
+
+Um modelo de requisitos é uma representação estruturada das necessidades do sistema (funcionalidades, restrições e interações), criada para organizar, entender e comunicar os requisitos levantados.
+
+Em vez de listar requisitos apenas em texto, o modelo usa diagramas, descrições formais ou estruturadas, facilitando a análise, a comunicação com o cliente e servindo de base para as próximas fases (projeto, implementação e testes).
+
+🔹 Funções do modelo de requisitos
+
+Organizar e estruturar os requisitos levantados.
+
+Ajudar a visualizar como o sistema deve funcionar.
+
+Reduzir ambiguidades, deixando claro para todos (clientes, desenvolvedores, testadores) o que será feito.
+
+Servir como documento de referência para a equipe.
+
+🔹 Exemplos de modelos de requisitos
+
+Casos de uso (UML)
+
+Mostram os atores (usuários ou sistemas externos) e suas interações com o sistema.
+
+Ex.: “Usuário realiza login”, “Gerente gera relatório de vendas”.
+
+Diagramas de atividades
+
+Representam fluxos de trabalho ou processos do sistema.
+
+Histórias de usuário (User Stories)
+
+Descrições simples no formato: “Como [tipo de usuário], quero [funcionalidade], para [benefício].”
+
+Ex.: “Como cliente, quero recuperar minha senha, para poder acessar minha conta mesmo se esquecer a senha.”
+
+Modelo de dados (DER – Diagrama Entidade-Relacionamento)
+
+Representa as informações que o sistema deve armazenar e como se relacionam.
+
+Prototipação de interface
+
+Protótipos de telas que ajudam a validar requisitos de usabilidade e navegação.
+
+👉 Resumindo:
+O modelo de requisitos é a tradução dos requisitos coletados em representações visuais e estruturadas, 
+para que todos entendam o sistema antes de implementá-lo.
+
+
+
+
+11- Para conseguir uma entrevista eficaz, que cuidados devem ser tomados?
+
+🔹 Cuidados para uma entrevista eficaz
+1. Planejamento da entrevista
+
+Definir o objetivo claro da entrevista (ex.: entender o processo de vendas).
+
+Selecionar quem deve ser entrevistado (usuário final, gerente, cliente, técnico).
+
+Preparar um roteiro de perguntas (abertas e fechadas), mas manter flexibilidade.
+
+Agendar em um horário adequado, evitando pressa ou interrupções.
+
+2. Condução da entrevista
+
+Criar um ambiente de confiança: seja cordial, explique o propósito da entrevista.
+
+Usar uma linguagem clara e acessível, evitando termos muito técnicos.
+
+Estimular o entrevistado a falar, ouvindo mais do que falando.
+
+Fazer perguntas abertas (“Como vocês registram uma venda?”) e usar fechadas para confirmar detalhes.
+
+Controlar o tempo, evitando se desviar muito do objetivo.
+
+3. Registro das informações
+
+Tomar notas organizadas ou gravar a entrevista (com autorização).
+
+Anotar não só as respostas, mas também observações de contexto (ex.: dificuldades mencionadas, ênfases do usuário).
+
+4. Pós-entrevista
+
+Revisar as anotações logo após, para não esquecer detalhes.
+
+Organizar as informações em um documento preliminar de requisitos.
+
+Validar com o entrevistado, enviando um resumo para confirmar se o entendimento está correto.
+
+👉 Em resumo:
+Para conseguir uma entrevista eficaz no levantamento de requisitos, é preciso planejar bem, conduzir com empatia e clareza, 
+registrar cuidadosamente e validar as informações.
+
+
+
+
+
+
+
+12- O que é processo ágil ?
+
+Um processo ágil é uma abordagem de desenvolvimento de software que prioriza flexibilidade, colaboração e entregas rápidas, em vez de seguir um plano rígido e sequencial.
+
+Ele surgiu para lidar com projetos onde os requisitos podem mudar com frequência ou não estão totalmente claros no início.
+
+🔹 Características principais do processo ágil
+
+Iterativo e incremental
+
+O software é desenvolvido em pequenas partes (iterações ou sprints), entregues rapidamente para feedback do cliente.
+
+Colaboração contínua
+
+Equipes e clientes trabalham juntos durante todo o processo.
+
+Foco no valor para o cliente
+
+Prioriza funcionalidades que realmente trazem benefícios ao usuário final.
+
+Flexibilidade frente a mudanças
+
+Mudanças de requisitos são bem-vindas, mesmo que ocorram tardiamente.
+
+Entrega frequente
+
+Cada iteração entrega uma versão funcional parcial, que pode ser testada e avaliada.
+
+Comunicação direta
+
+Reuniões rápidas (ex.: daily stand-up) substituem documentação pesada.
+
+🔹 Exemplos de métodos ágeis
+
+Scrum – divide o projeto em sprints, com papéis definidos (Scrum Master, Product Owner, equipe).
+
+Kanban – visualiza o fluxo de trabalho em cartões e colunas, melhorando o controle de tarefas.
+
+Extreme Programming (XP) – enfatiza boas práticas de programação, testes constantes e integração contínua.
+
+👉 Em resumo:
+O processo ágil foca em entregas rápidas, adaptação a mudanças e colaboração constante com o cliente, sendo ideal para 
+projetos dinâmicos e com requisitos em evolução.
+
+
+
+13-Quais são as características dos processos ágeis?
+
+Principais características dos processos ágeis
+
+Iterativo e incremental
+
+O desenvolvimento é feito em pequenas partes, chamadas de iterações ou sprints.
+
+Cada iteração entrega uma versão funcional do sistema.
+
+Flexibilidade frente a mudanças
+
+Mudanças nos requisitos podem ser incorporadas mesmo em fases avançadas do projeto.
+
+Entrega contínua de valor
+
+Funcionalidades importantes são entregues rapidamente para que o cliente possa usá-las e avaliar.
+
+Colaboração intensa
+
+Equipes, clientes e partes interessadas trabalham juntos durante todo o desenvolvimento.
+
+Comunicação direta e frequente
+
+Reuniões curtas e constantes (ex.: daily stand-ups) substituem documentos extensos.
+
+Foco no cliente e no usuário final
+
+Decisões priorizam o valor que será entregue ao usuário.
+
+Simplicidade e adaptação
+
+Evita burocracia desnecessária, focando no que realmente agrega valor.
+
+Qualidade incorporada
+
+Testes contínuos e práticas de programação (ex.: integração contínua, refatoração) garantem que o software funcione corretamente a cada entrega.
+
+👉 Resumindo:
+Os processos ágeis são flexíveis, colaborativos e orientados a entregas rápidas e de valor, permitindo que o software evolua de acordo
+com as necessidades reais do cliente.
+
+
+
+
+14- Qual é a diferença entre o método SCRUM e XP
+
+Ótima pergunta! Tanto Scrum quanto XP (Extreme Programming) são métodos ágeis, mas têm focos e práticas diferentes.
+
+🔹 Scrum
+
+Foco: Gestão do projeto e organização do trabalho em equipe.
+
+Estrutura: Define papéis claros:
+
+Product Owner: define prioridades e requisitos.
+
+Scrum Master: garante que o processo seja seguido.
+
+Equipe de desenvolvimento: constrói o software.
+
+Processo:
+
+Dividido em sprints (geralmente 2–4 semanas).
+
+Reuniões específicas: planejamento, daily stand-up, revisão e retrospectiva.
+
+Principais práticas: Gestão de backlog, planejamento de sprint, reuniões periódicas e entregas incrementais.
+
+🔹 Extreme Programming (XP)
+
+Foco: Qualidade e boas práticas de programação.
+
+Processo: Mais técnico e detalhado, enfatizando o código e testes.
+
+Principais práticas:
+
+Programação em par (pair programming)
+
+Desenvolvimento orientado a testes (TDD – Test-Driven Development)
+
+Integração contínua
+
+Refatoração constante do código
+
+Entregas frequentes de pequenas funcionalidades
+
+Objetivo: Reduzir erros e melhorar a qualidade do software desde o início, com feedback rápido.
+
+🔹 Resumo da diferença principal
+Aspecto	Scrum	XP
+Foco	Gestão de projeto e organização da equipe	Qualidade técnica e boas práticas de programação
+Papéis	Product Owner, Scrum Master, Equipe	Menos formal, foco nos programadores
+Entregas	Sprints de funcionalidades	Pequenas funcionalidades continuamente
+Ênfase	Processo e gestão	Código, testes e integração contínua
+
+👉 Em resumo:
+
+Scrum organiza como a equipe trabalha.
+
+XP foca em como o software é desenvolvido tecnicamente.
+
+
+
+15- Qual é o conceito de projeto? Mostre um exemplo.
+
+O conceito de projeto se refere a um esforço temporário e planejado para criar um produto, serviço ou resultado único.
+
+🔹 Características de um projeto
+
+Objetivo definido: existe algo específico a ser alcançado.
+
+Temporário: tem início e fim determinados.
+
+Produto ou resultado único: não é rotina, mas algo novo ou exclusivo.
+
+Recursos limitados: envolve tempo, pessoas, dinheiro e materiais.
+
+Planejamento necessário: para atingir o objetivo com eficiência.
+
+🔹 Exemplo de projeto
+
+Projeto: Desenvolvimento de um sistema de gerenciamento de biblioteca escolar.
+
+Objetivo: Criar um software para controlar empréstimos e devoluções de livros.
+
+Início: 1º de outubro de 2025.
+
+Fim: 31 de dezembro de 2025.
+
+Produto: Sistema informatizado com cadastro de livros, usuários e relatórios de empréstimos.
+
+Recursos: 3 desenvolvedores, 1 analista de sistemas, 1 computador por pessoa, orçamento de R$ 10.000.
+
+👉 Em resumo:
+Um projeto é temporário, planejado e único, enquanto processos rotineiros (como registrar vendas diariamente) não são considerados projetos.
+
+
+
+
+16- Quais são as ferramentas da análise estruturada?
+
+	DFD Nível 0
+	DFD Nível 1
+	DD --> Dicionário de dados
+	MER
+
+17-Qual é o objetivo do depósito de dados no DFD?
+
+No Diagrama de Fluxo de Dados (DFD), o depósito de dados (também chamado de armazenamento de dados) tem como objetivo principal representar onde os dados do sistema são armazenados temporária ou permanentemente durante o processamento das informações.
+
+🔹 Funções do depósito de dados no DFD
+
+Guardar informações
+
+Permite que os dados fiquem disponíveis para processos futuros do sistema.
+
+Ex.: cadastro de clientes, pedidos, produtos.
+
+Servir como fonte ou destino de dados
+
+Dados podem entrar em um processo a partir de um depósito ou ser enviados para armazenamento depois de processados.
+
+Representar persistência de dados
+
+Diferencia dados temporários em fluxo de dados armazenados de forma permanente ou semipermanente.
+
+🔹 Exemplo prático
+
+Depósito de dados: “Tabela de Clientes”
+
+Fluxos relacionados:
+
+Entrada: “Cadastrar cliente” → dados vão para o depósito.
+
+Saída: “Gerar relatório de clientes” → dados saem do depósito para o processo.
+
+👉 Resumindo:
+O depósito de dados no DFD representa o armazenamento de informações, permitindo que processos acessem, 
+atualizem e utilizem os dados de forma organizada dentro do sistema.
+	
+
+
+
+18-Qual é a finalidade projeto estruturado?
+
+A finalidade do projeto estruturado é organizar e planejar o desenvolvimento de um sistema de forma clara, lógica e eficiente, 
+garantindo que ele atenda aos requisitos do usuário e seja mais fácil de implementar, testar e manter.
+
+🔹 Objetivos principais do projeto estruturado
+
+Dividir o sistema em módulos
+
+Facilita o desenvolvimento e manutenção, tornando o sistema mais compreensível e gerenciável.
+
+Representar processos e dados de forma clara
+
+Utiliza ferramentas como DFD (Diagrama de Fluxo de Dados), fluxogramas e diagramas de estrutura.
+
+Reduzir complexidade
+
+Permite que cada módulo seja desenvolvido e testado independentemente.
+
+Garantir consistência e padronização
+
+Define regras, padrões e documentação que facilitam a comunicação entre analistas, programadores e usuários.
+
+Facilitar manutenção futura
+
+Como o sistema é bem documentado e modular, alterações ou melhorias podem ser feitas sem comprometer o todo.
+
+🔹 Em resumo
+
+O projeto estruturado tem como finalidade principal planejar e organizar o sistema de forma modular, clara e lógica, 
+garantindo eficiência no desenvolvimento, facilidade de manutenção e atendimento correto aos requisitos do usuário.
+
+
+19-Qual é a finalidade do Dicionário de Dados(DD)?
+
+🔹 Dicionário de dados
+
+É uma documentação detalhada dos dados do sistema.
+
+Descreve cada dado usado: nome, tipo, formato, tamanho, origem, destino e regras de uso.
+
+Pode incluir informações sobre depósitos de dados, mas também sobre dados que circulam nos processos.
+
+
+A finalidade do Dicionário de Dados (DD) é documentar detalhadamente todas as informações utilizadas em um sistema, 
+servindo como referência para analistas, desenvolvedores e testadores.
+
+🔹 Objetivos principais do Dicionário de Dados
+
+Padronizar os dados do sistema
+
+Define nomes, formatos, tipos e tamanhos dos dados, evitando ambiguidades.
+
+Registrar regras e restrições
+
+Indica obrigatoriedade, valores permitidos, chaves primárias e relacionamentos entre dados.
+
+Apoiar o projeto e a implementação
+
+Serve de guia para a construção de tabelas de banco de dados, formulários, relatórios e processos.
+
+Facilitar manutenção futura
+
+Permite que alterações no sistema sejam feitas com segurança, pois o significado e uso de cada dado estão documentados.
+
+Integrar a análise e o projeto estruturado
+
+Relaciona dados que circulam nos processos (DFD) e depósitos de dados, garantindo consistência.
+
+🔹 Exemplo simplificado de Dicionário de Dados
+Nome do dado	Tipo	Tamanho	Descrição	Origem	Destino
+NomeCliente	Texto	100	Nome completo do cliente	Formulário Web	Tabela Clientes
+DataPedido	Data	-	Data em que o pedido foi feito	Formulário Web	Tabela Pedidos
+
+👉 Resumindo:
+O Dicionário de Dados serve para padronizar, detalhar e documentar os dados do sistema, garantindo clareza, 
+consistência e facilidade de manutenção.
+
+
+20- Qual é o significado de M-ER? Porque é usado?
+
+O M-ER significa Modelo Entidade-Relacionamento (às vezes chamado apenas de Modelo ER).
+
+🔹 Significado
+
+Modelo Entidade-Relacionamento (M-ER): é uma representação gráfica e conceitual dos dados que serão armazenados em um sistema.
+
+Mostra entidades (objetos do sistema, como “Cliente” ou “Produto”), atributos (informações sobre as entidades) e relacionamentos entre essas entidades.
+
+🔹 Por que é usado?
+
+Visualizar a estrutura de dados
+
+Permite entender como os dados se relacionam antes de criar o banco de dados.
+
+Planejar o banco de dados
+
+Serve como base para projetar tabelas, chaves primárias, estrangeiras e relacionamentos.
+
+Evitar redundância e inconsistência
+
+Ajuda a organizar dados de forma lógica e eficiente.
+
+Comunicação clara
+
+Facilita a comunicação entre analistas, desenvolvedores e clientes, mostrando de forma intuitiva como os dados se conectam.
+
+🔹 Exemplo simplificado de M-ER
+
+Entidades: Cliente, Pedido, Produto
+
+Atributos:
+
+Cliente → Nome, CPF, E-mail
+
+Pedido → Data, Valor
+
+Produto → Nome, Preço
+
+Relacionamentos:
+
+Um Cliente faz vários Pedidos
+
+Um Pedido contém vários Produtos
+
+👉 Resumindo:
+O M-ER é usado para modelar dados de forma clara e organizada, servindo como base para criar o banco de dados e garantindo que as 
+informações do sistema sejam consistentes e compreensíveis.
